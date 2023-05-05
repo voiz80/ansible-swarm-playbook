@@ -14,4 +14,4 @@ You can override the `swarm_iface` variable in Ansible to determine the listenin
 
 ## `swarm.yml` vs. `swarm-facts.yml`
 
-The `swarm.yml` playbook uses a shell statement for determining cluster membership where the `swarm-facts.yml` playbook uses the `docker_info_facts` module for injecting Docker info as facts then checking cluster membership against that.
+The `swarm.yml` playbook uses a shell statement for determining cluster membership where the `swarm-facts.yml` playbook uses the `docker_info_facts` module for injecting Docker info as facts then checking cluster membership against that
